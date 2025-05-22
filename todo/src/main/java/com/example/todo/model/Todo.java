@@ -13,8 +13,7 @@ public class Todo {
     private String title;
     private String description;
     private boolean completed;
-
-    // Explicit getters if Lombok isn't working
+    
     public String getDescription() {
         return description;
     }
